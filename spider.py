@@ -11,7 +11,7 @@ PROXY1 = os.getenv("PROXY1")
 PROXY2 = os.getenv("PROXY2")
 ####
 AUTH = os.getenv("AUTH")
-PROXY = os.getenv("PROXY")
+PROXY = str(os.getenv("PROXY"))
 
 accounturl = "https://account.ccnu.edu.cn/cas/login"
 account_jurl = "https://account.ccnu.edu.cn/cas/login;jsessionid="
